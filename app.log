@@ -1,0 +1,83 @@
+2025-08-12 15:02:45,848 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:02:45,849 [DEBUG] storage: Loaded 12 bookings
+2025-08-12 15:02:45,849 [INFO] root: Fetched 1 bookings for email: pratyay@example.com
+2025-08-12 15:02:45,850 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:02:45] "GET /bookings?email=pratyay@example.com HTTP/1.1" 200 -
+2025-08-12 15:02:48,657 [INFO] root: Fetching classes with timezone: Asia/Kolkata
+2025-08-12 15:02:48,658 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:02:48,658 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:02:48,660 [INFO] root: Returned 3 classes
+2025-08-12 15:02:48,660 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:02:48] "GET /classes HTTP/1.1" 200 -
+2025-08-12 15:02:51,199 [INFO] root: Fetching classes with timezone: Asia/Kolkata
+2025-08-12 15:02:51,200 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:02:51,200 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:02:51,200 [INFO] root: Returned 3 classes
+2025-08-12 15:02:51,200 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:02:51] "GET /classes?tz=Asia/Kolkata HTTP/1.1" 200 -
+2025-08-12 15:02:53,648 [INFO] root: Fetching classes with timezone: America/New_York
+2025-08-12 15:02:53,648 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:02:53,648 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:02:53,649 [INFO] root: Returned 3 classes
+2025-08-12 15:02:53,650 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:02:53] "GET /classes?tz=America/New_York HTTP/1.1" 200 -
+2025-08-12 15:02:55,847 [INFO] root: Fetching classes with timezone: Europe/London
+2025-08-12 15:02:55,849 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:02:55,849 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:02:55,853 [INFO] root: Returned 3 classes
+2025-08-12 15:02:55,853 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:02:55] "GET /classes?tz=Europe/London HTTP/1.1" 200 -
+2025-08-12 15:02:57,646 [INFO] root: Fetching classes with timezone: Australia/Sydney
+2025-08-12 15:02:57,647 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:02:57,647 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:02:57,648 [INFO] root: Returned 3 classes
+2025-08-12 15:02:57,649 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:02:57] "GET /classes?tz=Australia/Sydney HTTP/1.1" 200 -
+2025-08-12 15:03:00,763 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:03:00,763 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:03:00,763 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:03:00,763 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:03:00,764 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:03:00,765 [DEBUG] storage: Saved data to data.json
+2025-08-12 15:03:00,765 [INFO] storage: Updated classes list: 3 total
+2025-08-12 15:03:00,765 [DEBUG] storage: Loaded data from data.json: 3 classes, 12 bookings
+2025-08-12 15:03:00,765 [DEBUG] storage: Saved data to data.json
+2025-08-12 15:03:00,765 [INFO] storage: Added booking ID 13 for class 3 by pratyay@example.com
+2025-08-12 15:03:00,765 [INFO] root: Booking success - Class 3 booked by pratyay@example.com
+2025-08-12 15:03:00,766 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:03:00] "[35m[1mPOST /book?Content-Type=application/json HTTP/1.1[0m" 201 -
+2025-08-12 15:03:17,268 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:03:17] "[31m[1mGET /admin/classes HTTP/1.1[0m" 405 -
+2025-08-12 15:04:45,131 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:04:45] "[31m[1mGET /admin/classes HTTP/1.1[0m" 405 -
+2025-08-12 15:06:30,226 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:06:30] "[31m[1mGET /admin/classes?name="Evening%20Zumba"&datetime_ist="2025-08-15T18:00:00"&instructor="Riya%20Mehta"&capacity=20 HTTP/1.1[0m" 405 -
+2025-08-12 15:07:36,847 [WARNING] root: Class creation failed - Invalid datetime_ist format: name 'parser' is not defined
+2025-08-12 15:07:36,848 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:07:36] "[31m[1mPOST /admin/classes?name="Evening%20Zumba"&datetime_ist="2025-08-15T18:00:00"&instructor="Riya%20Mehta"&capacity=20 HTTP/1.1[0m" 400 -
+2025-08-12 15:07:43,980 [WARNING] root: Class creation failed - Invalid datetime_ist format: name 'parser' is not defined
+2025-08-12 15:07:43,981 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:07:43] "[31m[1mPOST /admin/classes?name="Evening%20Zumba"&datetime_ist="2025-08-15T18:00:00"&instructor="Riya%20Mehta"&capacity=20 HTTP/1.1[0m" 400 -
+2025-08-12 15:07:56,100 [WARNING] root: Class creation failed - Invalid or missing JSON payload
+2025-08-12 15:07:56,100 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:07:56] "[31m[1mPOST /admin/classes?name="Evening%20Zumba"&datetime_ist=2025-08-15T18:00:00&instructor="Riya%20Mehta"&capacity=20 HTTP/1.1[0m" 400 -
+2025-08-12 15:08:27,176 [WARNING] root: Class creation failed - Invalid datetime_ist format: name 'parser' is not defined
+2025-08-12 15:08:27,177 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:08:27] "[31m[1mPOST /admin/classes HTTP/1.1[0m" 400 -
+2025-08-12 15:09:30,172 [WARNING] root: Class creation failed - Invalid datetime_ist format: name 'parser' is not defined
+2025-08-12 15:09:30,173 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:09:30] "[31m[1mPOST /admin/classes HTTP/1.1[0m" 400 -
+2025-08-12 15:10:56,537 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-12 15:10:56,537 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-08-12 15:10:56,537 [INFO] werkzeug:  * Restarting with stat
+2025-08-12 15:10:56,615 [WARNING] werkzeug:  * Debugger is active!
+2025-08-12 15:10:56,620 [INFO] werkzeug:  * Debugger PIN: 768-393-252
+2025-08-12 15:10:59,732 [DEBUG] storage: Loaded data from data.json: 3 classes, 13 bookings
+2025-08-12 15:10:59,732 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:10:59,732 [DEBUG] storage: Loaded data from data.json: 3 classes, 13 bookings
+2025-08-12 15:10:59,732 [DEBUG] storage: Loaded 3 classes
+2025-08-12 15:10:59,732 [DEBUG] storage: Loaded data from data.json: 3 classes, 13 bookings
+2025-08-12 15:10:59,733 [DEBUG] storage: Saved data to data.json
+2025-08-12 15:10:59,733 [INFO] storage: Updated classes list: 4 total
+2025-08-12 15:10:59,733 [INFO] root: Class created successfully - ID: 4, Name: Evening Zumba
+2025-08-12 15:10:59,734 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:10:59] "[35m[1mPOST /admin/classes HTTP/1.1[0m" 201 -
+2025-08-12 15:11:07,075 [DEBUG] storage: Loaded data from data.json: 4 classes, 13 bookings
+2025-08-12 15:11:07,076 [DEBUG] storage: Loaded 4 classes
+2025-08-12 15:11:07,076 [DEBUG] storage: Loaded data from data.json: 4 classes, 13 bookings
+2025-08-12 15:11:07,076 [DEBUG] storage: Loaded 4 classes
+2025-08-12 15:11:07,076 [DEBUG] storage: Loaded data from data.json: 4 classes, 13 bookings
+2025-08-12 15:11:07,077 [DEBUG] storage: Saved data to data.json
+2025-08-12 15:11:07,077 [INFO] storage: Updated classes list: 5 total
+2025-08-12 15:11:07,077 [INFO] root: Class created successfully - ID: 5, Name: Evening Zumba
+2025-08-12 15:11:07,078 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:11:07] "[35m[1mPOST /admin/classes HTTP/1.1[0m" 201 -
+2025-08-12 15:11:13,391 [INFO] root: Fetching classes with timezone: Asia/Kolkata
+2025-08-12 15:11:13,392 [DEBUG] storage: Loaded data from data.json: 5 classes, 13 bookings
+2025-08-12 15:11:13,392 [DEBUG] storage: Loaded 5 classes
+2025-08-12 15:11:13,392 [INFO] root: Returned 5 classes
+2025-08-12 15:11:13,393 [INFO] werkzeug: 127.0.0.1 - - [12/Aug/2025 15:11:13] "GET /classes HTTP/1.1" 200 -

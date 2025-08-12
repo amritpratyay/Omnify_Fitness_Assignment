@@ -1,0 +1,137 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "name": "Morning Yoga",
+      "datetime_ist": "2025-08-15T07:30:00",
+      "instructor": "Anika Sharma",
+      "capacity": 10,
+      "slots_available": 0
+    },
+    {
+      "id": 2,
+      "name": "Zumba Blast",
+      "datetime_ist": "2025-08-15T18:00:00",
+      "instructor": "Rahul Verma",
+      "capacity": 15,
+      "slots_available": 12
+    },
+    {
+      "id": 3,
+      "name": "Evening HIIT",
+      "datetime_ist": "2025-08-16T19:00:00",
+      "instructor": "Maya Iyer",
+      "capacity": 12,
+      "slots_available": 9
+    },
+    {
+      "id": "4",
+      "name": "Evening Zumba",
+      "datetime_ist": "2025-08-15T18:00:00+05:30",
+      "instructor": "Riya Mehta",
+      "capacity": 20,
+      "slots_available": 20
+    },
+    {
+      "id": "5",
+      "name": "Evening Zumba",
+      "datetime_ist": "2025-08-15T18:00:00+05:30",
+      "instructor": "Riya",
+      "capacity": 20,
+      "slots_available": 20
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "class_id": 1,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T07:40:04.727710Z"
+    },
+    {
+      "id": 2,
+      "class_id": 1,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T07:41:46.877752Z"
+    },
+    {
+      "id": 3,
+      "class_id": 1,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T07:42:03.285261Z"
+    },
+    {
+      "id": 4,
+      "class_id": 1,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T07:47:44.984514Z"
+    },
+    {
+      "class_id": 1,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T08:02:32.179855Z",
+      "id": 5
+    },
+    {
+      "class_id": 1,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T08:02:41.966009Z",
+      "id": 6
+    },
+    {
+      "class_id": 1,
+      "client_name": "Test User",
+      "client_email": "test@example.com",
+      "booked_at": "2025-08-12T08:14:17.571044Z",
+      "id": 7
+    },
+    {
+      "class_id": 2,
+      "client_name": "Test User",
+      "client_email": "test@example.com",
+      "booked_at": "2025-08-12T08:19:08.768120Z",
+      "id": 8
+    },
+    {
+      "class_id": 2,
+      "client_name": "Alice Test",
+      "client_email": "alice@example.com",
+      "booked_at": "2025-08-12T08:19:41.642411Z",
+      "id": 9
+    },
+    {
+      "class_id": 2,
+      "client_name": "Amrit",
+      "client_email": "amrit@example.com",
+      "booked_at": "2025-08-12T08:21:26.152435Z",
+      "id": 10
+    },
+    {
+      "class_id": 3,
+      "client_name": "Amrit",
+      "client_email": "amrit@example.com",
+      "booked_at": "2025-08-12T08:39:08.575582Z",
+      "id": 11
+    },
+    {
+      "class_id": 3,
+      "client_name": "Pratyay",
+      "client_email": "pratyay@example.com",
+      "booked_at": "2025-08-12T08:51:44.421619Z",
+      "id": 12
+    },
+    {
+      "class_id": 3,
+      "client_name": "Pratyay",
+      "client_email": "pratyay@example.com",
+      "booked_at": "2025-08-12T09:33:00.765374Z",
+      "id": 13
+    }
+  ]
+}
